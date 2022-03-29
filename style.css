@@ -1,0 +1,89 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #00ccff;
+	font-family: sans-serif white;
+	font-weight: bold;
+	outline: none;
+	transition: all 0.5s ease;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator{
+	background-color: #00ccff;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: inset 5px 5px 12px rgb(221, 219, 219),
+					  5px 5px 25px rgba(0,0,0,.16);
+	display: grid;
+	grid-template-columns: repeat(4,68px);
+}
+
+input{
+	grid-column: span 4;
+	height: 70px;
+	width: 272px;
+	background-color: #00ccff;
+	box-shadow: inset -5px -5px 12px rgb(94, 91, 91),
+				inset 5px: 5px 12px rgba(0,0,0,.16);
+	border: none;
+	border-radius: 30px;
+	color: grey;
+	font-size: 50px;
+	text-align: right;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+button{
+	height: 48px;
+	width: 48px;
+	background-color: #00ccff;
+	box-shadow: -5px -5px 13px rgb(94, 91, 91),
+				 5px 5px 12px rgba(0,0,0,.16);
+	border: none;
+	border-radius: 50%;
+	margin: 8px;
+	font-size: 16px;
+}
+
+button:hover{
+	transform: scale(1.15);
+}
+
+button.clear{
+	background-color: #2d191e48;
+	color: #bd3740;
+}
+
+button.hapus{
+	background-color: #2d191e48;
+	color: #bd3740;
+}
+
+button.num{
+	background-color: #9900ff54;
+	color: black;
+}
+
+button.opr{
+	background-color: #f700ff7e;
+	color: #0e0e0e;
+}
+.hasil{
+	width: 115px;
+	border-radius: 40px;
+	background-color: #00ffaa;
+	box-shadow: -5px -5px 13px rgb(94, 91, 91),
+				 5px 5px 12px rgba(0,0,0,.16);
+}
+
