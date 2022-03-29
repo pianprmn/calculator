@@ -2,7 +2,7 @@
 	margin:  0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #00ccff;
+	background-color: #00b0df;
 	font-family: sans-serif white;
 	font-weight: bold;
 	outline: none;
@@ -20,7 +20,7 @@
 	background-color: #00ccff;
 	padding: 15px;
 	border-radius: 30px;
-	box-shadow: inset 5px 5px 12px rgb(221, 219, 219),
+	box-shadow: inset 5px 5px 12px #3e7f8f,
 					  5px 5px 25px rgba(0,0,0,.16);
 	display: grid;
 	grid-template-columns: repeat(4,68px);
